@@ -9,14 +9,14 @@ In the project directory, you can run:
 ### Front End on server 3000 seperately
 
 Goto project folder in VS Code 
-cd youtube-frontend
-npm start
+```cd youtube-frontend```
+```npm start```
 
 ### Back End on server 4000 seperately
 Goto project folder in VS Code 
-cd youtube-backend
+```cd youtube-backend```
 put .env variable from the provided file
-npm start
+```npm start```
 
 ### `npm start`
 
