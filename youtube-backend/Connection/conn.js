@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
+require('dotenv').config();
 
- 
+const MONGODBURI = process.env.MONGODBURI;
 
 mongoose
-  .connect('mongodb+srv://dognepiyush3d:dayh4AO7Z9Mc4ihh@cluster0.ebogh.mongodb.net/')
+  .connect(MONGODBURI)
   .then(() => console.log('DB connection successful!')).catch(err=>{
     console.log(err)
   });
