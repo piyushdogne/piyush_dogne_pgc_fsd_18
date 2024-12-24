@@ -9,6 +9,16 @@ app.use(cors({
     credentials: true
   }))
 
+/////////////////////////////////////////
+
+
+
+//PASTE THE MONGODBURI FROM THE PDF FILE PROVIDED , INTO .ENV FILE
+
+
+
+//////////////////////////////////////////////////
+
 app.use(express.json());
 app.use(cookieParser());
 require('./Connection/conn');
